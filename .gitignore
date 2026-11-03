@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data / artifacts (never commit)
+output/
+artifacts/
+.runtime/
+*.h5
+*.hdf5
+*.npz
+*.mat
+*.pdf
+*.png
+*.jpg
+
+# Local environment
+.env
+.ipynb_checkpoints/

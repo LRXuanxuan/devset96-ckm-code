@@ -1,0 +1,11 @@
+# Tested on Windows 11 with CPython 3.12.14
+# Sionna RT 2.2.0 requires this Mitsuba / Dr.Jit pair; mixing versions breaks the
+# differentiable ray-tracing bindings.
+numpy==1.26.4
+scipy==1.14.1
+h5py==3.16.0
+matplotlib==3.10.7
+psutil==7.2.2
+sionna-rt==2.2.0
+mitsuba==3.9.1
+drjit==1.5.0
